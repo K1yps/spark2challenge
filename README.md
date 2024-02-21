@@ -27,7 +27,7 @@ mvn clean package
 mvn clean package -P shade
 ````
 
-#### Run
+### Run
 ```
 java neto.henrique.spark2challenge.App
 ```
