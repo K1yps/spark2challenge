@@ -5,6 +5,8 @@ Response to the [Spark 2 Recruitment Challenge](https://github.com/bdu-xpand-it/
 
 The build and program outputs are available in the [Releases](https://github.com/K1yps/spark2challenge/releases) section.
 
+Requires Java 11
+
 ### Build
 
 ````
@@ -25,6 +27,14 @@ mvn clean package
 mvn clean package -P shade
 ````
 
+#### Run
+```
+java neto.henrique.spark2challenge.App
+```
+or
+```
+java -jar .\target\spark2challenge-1.0.jar
+```
 
 ### Functionality
 
