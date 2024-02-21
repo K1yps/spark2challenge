@@ -58,7 +58,7 @@ Reads the datasets at `play-store-datasets/{googleplaystore.csv, googleplaystore
 * Combines the DataFrames produced by Parts 1 and 3 into a new Dataframe (_df4_).
 * Saves the final DataFrame as a single Parquet file with gzip compression at `outupt/googleplaystore_cleaned`.
 
-**Part 4**:
+**Part 5**:
 * Utilizes _df4_ to create a new DataFrame (_df5_) containing metrics like the count of applications, average rating, and average sentiment polarity by genre.
 * Saves the resulting DataFrame as a single Parquet file with gzip compression at `outupt/googleplaystore_metrics`.
 
