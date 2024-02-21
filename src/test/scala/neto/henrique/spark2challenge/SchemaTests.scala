@@ -3,6 +3,9 @@ package neto.henrique.spark2challenge
 import org.apache.spark.sql.types._
 import org.scalatest.matchers.must.Matchers
 
+/**
+ * Validates the resulting schemas of each challenge part
+ */
 class SchemaTests extends ChallengeSuite with Matchers {
 
   def assertEmptySymDiff(schema1: StructType, schema2: StructType): Unit = {
